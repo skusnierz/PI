@@ -47,10 +47,6 @@ entry_type parse(char* raw) {
     return number;
 }
 
-/****************************
-* implement functions below *
-****************************/
-
 void do_add(stack* s) {
     int tmp = pop(s);
     int tmp1 = pop(s);
