@@ -19,7 +19,7 @@ int pop(stack* s) {
 }
 
 bool is_empty(stack* s) {
-    return s==NULL ? false : true;
+    return s->top==0 ? true : false;
 }
 
 stack* new_stack(int size) {
@@ -47,9 +47,6 @@ int main() {
         scanf("%d", &tmp);
         push(s,tmp);
     }
-    for(int j=0; j<size; j++)
-    {
-        printf("%d\n",pop(s));
-    }
+    while(!is_empty(s))printf("%d\n",pop(s));
     delete_stack(s);
 }
