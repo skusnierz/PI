@@ -1,0 +1,3 @@
+C:/Users/sebastian/Desktop/git/PI/olimpiada/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sebastian/Desktop/git/PI/olimpiada/cmake-build-debug/CMakeFiles/olimpiada.dir
+C:/Users/sebastian/Desktop/git/PI/olimpiada/cmake-build-debug/CMakeFiles/edit_cache.dir
