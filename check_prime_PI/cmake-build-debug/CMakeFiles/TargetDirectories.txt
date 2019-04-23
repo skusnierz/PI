@@ -1,3 +1,0 @@
-C:/Users/sebastian/CLionProjects/check_prime_PI/cmake-build-debug/CMakeFiles/check_prime_PI.dir
-C:/Users/sebastian/CLionProjects/check_prime_PI/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/sebastian/CLionProjects/check_prime_PI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
