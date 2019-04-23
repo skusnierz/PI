@@ -1,0 +1,3 @@
+C:/Users/sebastian/Desktop/git/PI/Triangle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sebastian/Desktop/git/PI/Triangle/cmake-build-debug/CMakeFiles/Triangle.dir
+C:/Users/sebastian/Desktop/git/PI/Triangle/cmake-build-debug/CMakeFiles/edit_cache.dir
