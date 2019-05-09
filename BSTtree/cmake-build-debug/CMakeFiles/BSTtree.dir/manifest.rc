@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/sebastian/Desktop/git/PI/BSTtree/cmake-build-debug/CMakeFiles/BSTtree.dir/embed.manifest"
