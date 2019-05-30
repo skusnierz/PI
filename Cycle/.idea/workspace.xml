@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BSTtree" targetName="BSTtree" />
+      <config projectName="Cycle" targetName="Cycle" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ef7c7d-f6d8-4007-807c-5e076c8ce291" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Triangle/.idea/Triangle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Triangle/.idea/Triangle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Triangle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Triangle/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Triangle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Triangle/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="29d9a69e-8d89-4ed7-829f-0efdc583b5e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BSTtree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BSTtree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dziekanat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dziekanat/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,13 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.c">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="155">
+              <caret line="21" column="26" selection-end-line="61" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -51,15 +47,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-59" />
+    <option name="y" value="44" />
+    <option name="width" value="1345" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -67,8 +63,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -89,7 +85,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BSTtree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BSTtree" TARGET_NAME="BSTtree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BSTtree" RUN_TARGET_NAME="BSTtree">
+    <configuration name="Cycle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cycle" TARGET_NAME="Cycle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cycle" RUN_TARGET_NAME="Cycle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -100,41 +96,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63ef7c7d-f6d8-4007-807c-5e076c8ce291" name="Default Changelist" comment="" />
-      <created>1557151150542</created>
+      <changelist id="29d9a69e-8d89-4ed7-829f-0efdc583b5e8" name="Default Changelist" comment="" />
+      <created>1559128010874</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557151150542</updated>
-      <workItem from="1557151154350" duration="1890000" />
-      <workItem from="1557413913415" duration="138000" />
-      <workItem from="1557414269711" duration="382000" />
-      <workItem from="1557416244653" duration="1178000" />
+      <updated>1559128010874</updated>
+      <workItem from="1559128014475" duration="1329000" />
+      <workItem from="1559151218054" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3588000" />
+    <option name="totallyTimeSpent" value="1342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -148,13 +140,10 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="155">
+          <caret line="21" column="26" selection-end-line="61" selection-end-column="1" />
         </state>
       </provider>
     </entry>

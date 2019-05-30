@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BSTtree" targetName="BSTtree" />
+      <config projectName="gra" targetName="gra" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ef7c7d-f6d8-4007-807c-5e076c8ce291" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Triangle/.idea/Triangle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Triangle/.idea/Triangle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Triangle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Triangle/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Triangle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Triangle/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7cf84313-2817-46ac-8d93-6153346e6791" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BSTtree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BSTtree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dziekanat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dziekanat/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="209">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +66,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -89,7 +88,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BSTtree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BSTtree" TARGET_NAME="BSTtree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BSTtree" RUN_TARGET_NAME="BSTtree">
+    <configuration name="gra" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gra" TARGET_NAME="gra" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gra" RUN_TARGET_NAME="gra">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -100,26 +99,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63ef7c7d-f6d8-4007-807c-5e076c8ce291" name="Default Changelist" comment="" />
-      <created>1557151150542</created>
+      <changelist id="7cf84313-2817-46ac-8d93-6153346e6791" name="Default Changelist" comment="" />
+      <created>1557736042246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557151150542</updated>
-      <workItem from="1557151154350" duration="1890000" />
-      <workItem from="1557413913415" duration="138000" />
-      <workItem from="1557414269711" duration="382000" />
-      <workItem from="1557416244653" duration="1178000" />
+      <updated>1557736042246</updated>
+      <workItem from="1557736044791" duration="3520000" />
+      <workItem from="1557773807574" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3588000" />
+    <option name="totallyTimeSpent" value="3533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -150,10 +147,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="209">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
