@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Komisja" targetName="Komisja" />
+      <config projectName="Przetarg" targetName="Przetarg" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,11 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b725b9e1-1893-4702-8fc3-7738dd01d1c2" name="Default Changelist" comment="">
+    <list default="true" id="e0366186-282f-46df-b7a4-9f2e90ec09db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Hyperloop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hyperloop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hyperloop/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Hyperloop/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Komisja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Komisja/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="529">
+              <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -54,10 +53,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-59" />
+    <option name="y" value="44" />
+    <option name="width" value="1345" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -65,8 +64,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -87,7 +86,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Komisja" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Komisja" TARGET_NAME="Komisja" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Komisja" RUN_TARGET_NAME="Komisja">
+    <configuration name="Przetarg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Przetarg" TARGET_NAME="Przetarg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Przetarg" RUN_TARGET_NAME="Przetarg">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -98,19 +97,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b725b9e1-1893-4702-8fc3-7738dd01d1c2" name="Default Changelist" comment="" />
-      <created>1559238987545</created>
+      <changelist id="e0366186-282f-46df-b7a4-9f2e90ec09db" name="Default Changelist" comment="" />
+      <created>1559239265061</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559238987545</updated>
-      <workItem from="1559238991072" duration="273000" />
-      <workItem from="1559239491453" duration="16000" />
-      <workItem from="1559239528481" duration="12000" />
+      <updated>1559239265061</updated>
+      <workItem from="1559239268890" duration="78000" />
+      <workItem from="1559239387638" duration="45000" />
+      <workItem from="1559239480721" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301000" />
+    <option name="totallyTimeSpent" value="132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -145,8 +144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="529">
+          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
         </state>
       </provider>
     </entry>

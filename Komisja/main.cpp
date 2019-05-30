@@ -1,101 +1,62 @@
-#include <stdio.h>
-// we're big guys now, let's use already implemeted list
-// you might want check this out: http://www.cplusplus.com/reference/list/list/#functions
-#include <list>
+#include <iostream>
 
 using namespace std;
 
-// Global variables are bad, but in this case
-// passing them in function would soon exceed memory limit.
-// Trust me, I tried.
-int n;
-list<int> *graph;
-int curr_line;
-list<int> *lines;
-bool is_euler;
+typedef struct Node {
+    int n;
+    struct Node* next;
+} Node;
 
+enum color {
+    white,
+    gray,
+    black
+};
 
-void euler(int u)
-{
-    while (!graph[u].empty())
+bool find_cycle_from(Node** graph, color* visited, int n, int x) {
+    // gray color means "we already processed this node in current lookup" - once x is gray, we are sure we've got a cycle
+    if(visited[x]==gray) return true;
+    // mark x grey
+    visited[x]=gray;
+    // iterate over each neighbour and proceed with DFS (recursively or using stack)
+    Node * tmp = graph[x];
+    while(tmp!=NULL)
     {
-        int v = graph[u].front();	// take first neighbour of u
-        graph[v].remove(u);
-        graph[u].pop_front();
-        euler(v);
+        if(find_cycle_from(graph,visited,n,tmp->n))return true;
+        tmp=tmp->next;
     }
+    // once you found cycle - return immediately
 
-    // if we're visiting our dummy city, start a new line
-    if (!is_euler && u == 0) {
-        curr_line++;
-    } else {
-        lines[curr_line].push_back(u);
-        // if not, just add city to current line
+    // black means "ok, we finally processed that node" - mark x black
+    visited[x]=black;
+    // found nothing? Return
+    return false;
+}
+
+bool has_cycle(Node** graph, int n) {
+    color visited[n];
+    for (int i=0; i<n; i++) visited[i] = white;
+    for(int i = 0; i<n; i++) {
+        if (visited[i] == white) {
+            if (find_cycle_from(graph, visited, n, i)) return true;
+        }
     }
+    return false;
 }
 
 int main() {
-    int Z;
-
-    scanf("%d", &Z);
-
-    while (Z--) {
-        int m, u, v;
-        scanf("%d %d", &n, &m);
-
-        graph = new list<int>[n+2];
-        lines = new list<int>[n+2];
-
-        for(int i=0; i<m; i++) {
-            scanf("%d %d", &u, &v);
-            graph[u].push_back(v);
-            graph[v].push_back(u);
-        }
-
-        is_euler = true;
-        for (int i = 1; i <= n; i++)
-        {
-            // add dummy city to each city that has odd number of neighbours
-            if (graph[i].size() & 1)
-            {
-                graph[i].push_back(0);
-                graph[0].push_back(i);
-                is_euler = false;
-            }
-        }
-
-        curr_line = 0;
-
-        if (is_euler) {
-            euler(1);
-        } else {
-            euler(0);
-        }
-
-        // ignore empty lines
-        int lines_number = 0;
-        for (int i = 0; i <= curr_line; i++)
-        {
-            if (lines[i].size()>1)
-                lines_number++;
-        }
-
-        printf("%d\n", lines_number);
-
-        for (int i = 0; i <= lines_number; i++)
-        {
-            if (lines[i].size() > 1)
-            {
-                printf("%lu ", lines[i].size());
-                for (list<int>::iterator it = lines[i].begin(); it != lines[i].end(); it++)
-                {
-                    printf("%d ", *it);
-                }
-                printf("\n");
-            }
-        }
-
-        delete[] graph;
-        delete[] lines;
+    int n, k;
+    cin >> n;
+    Node **graph = new Node*[n];
+    cin >> k;
+    for(int i=0; i<k; i++) {
+        Node* tmp = new Node;
+        int x, y;
+        cin >> x;
+        cin >> y;
+        tmp->n = y;
+        tmp->next = graph[x];
+        graph[x] = tmp;
     }
+    cout << (has_cycle(graph, n) ? "CYKL" : "OK") << endl;
 }
